@@ -1,5 +1,6 @@
 :root {
   --color-primary: #a18a93;
+  --color-primary-light: #c6b5bc;
   --color-secondary: #36243a;
   --color-neutral: #c7b3aa;
   --color-bg: #dfdce7;
@@ -25,9 +26,14 @@ ul, ol, dl {
   list-style-type: none;
 }
 
-a, blockquote, cite {
+a, blockquote {
   font-family: var(--font-secondary);
   color: var(--color-secondary);
+}
+
+cite {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
 }
 
 mark {

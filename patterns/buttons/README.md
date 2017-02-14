@@ -4,4 +4,4 @@ The buttons use our primary colour to draw attention and stand out. Each button 
 
 -The light buttons are for over the banner.
 
--THe ghost button is for content heavy pages (aka adoption page) so that it does not appear cluttered.
+-The ghost button is for content heavy pages (aka adoption page) so that it does not appear cluttered.
