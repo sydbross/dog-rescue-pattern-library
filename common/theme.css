@@ -10,4 +10,26 @@
 
 html {
   font-family: var(--font-primary);
+  color: var(--color-secondary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+}
+
+ul, ol, dl {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  text-decoration: none;
+  list-style-type: none;
+}
+
+a, blockquote, cite {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+}
+
+mark {
+  background-color: var(--color-primary);
 }
