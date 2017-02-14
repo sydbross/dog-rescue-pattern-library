@@ -1,0 +1,13 @@
+:root {
+  --color-primary: #a18a93;
+  --color-secondary: #36243a;
+  --color-neutral: #c7b3aa;
+  --color-white: #fff;
+
+  --font-primary: "Quicksand", sans-serif;
+  --font-secondary: "Montserrat", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
