@@ -21,6 +21,7 @@
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#grid">Grid</a></li>
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#modules">Modules</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#buttons">Buttons</a></li>
+                <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#cards">Cards</a></li>
           </ul>
         </nav>
       </div>
@@ -378,9 +379,11 @@
 
       <div class="pattern-desc milli island">
         <div class="max-length"><p>The buttons use our primary colour to draw attention and stand out. Each button has a specific purpose:</p>
-<p>-The regular buttons are for the main homepage (cards). They stand out bright against the pale background.</p>
-<p>-The light buttons are for over the banner.</p>
-<p>-The ghost button is for content heavy pages (aka adoption page) so that it does not appear cluttered.</p>
+<ul>
+<li>The regular buttons are for the main homepage (cards). They stand out bright against the pale background.</li>
+<li>The light buttons are for over the banner.</li>
+<li>The ghost button is for content heavy pages (aka adoption page) so that it does not appear cluttered.</li>
+</ul>
 </div>
       </div>
   </div>
@@ -398,6 +401,84 @@
               <code><pre>&lt;a class="btn" href="#"&gt;Standard button&lt;/a>
 &lt;a class="btn btn-light" href="#">Light button&lt;/a>
 &lt;a class="btn btn-ghost" href="#">Ghost button&lt;/a>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="cards">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Cards</h2>
+        <nav class="pattern-nav milli">
+          <ol class="list-group-inline pad-t-1-4 push-0">
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#cards-basic-card">Basic card</a></li>
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#cards-icon-card">Icon card</a></li>
+          </ol>
+        </nav>
+    </div>
+
+      <div class="pattern-desc milli island">
+        <div class="max-length"><p>The cards provide a way for us to highlight important pieces of information &amp; sperate them from basic body content.</p>
+</div>
+      </div>
+  </div>
+
+  
+
+    <div class="pattern-details push" id="cards-basic-card">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Basic card</h3>
+          </div>
+            <div class="pattern-desc milli island">
+              <div class="max-length"><p>The basic card should only be for information, it could include a button, but is never a link itself.</p>
+</div>
+            </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/cards/basic-card.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;div class="card island-1-2"&gt;
+  &lt;h2 class="push-1-4">This is a card&lt;/h2>
+  &lt;p class="push-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/p>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details push" id="cards-icon-card">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Icon card</h3>
+          </div>
+            <div class="pattern-desc milli island">
+              <div class="max-length"><p>The icon card is generally used for calls to action on the homepage or highlights on inside pages.</p>
+</div>
+            </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/cards/icon-card.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;div class="card island-1-2 text-center"&gt;
+  &lt;i class="icon i-128 push-1-2">
+      &lt;svg>&lt;use xlink:href="../../images/icons.svg#velociraptor"/>&lt;/svg>
+    &lt;/i>
+  &lt;h2 class="push-1-4">This is a card&lt;/h2>
+  &lt;p class="push-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/p>
+&lt;/div>
 </pre></code>
             </div>
           </div>
