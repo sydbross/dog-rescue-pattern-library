@@ -1,8 +1,7 @@
 .btn {
   background-color: var(--color-primary);
-  border-color: var(--color-secondary);
+  border-color: var(--color-primary);
   font-family: var(--font-secondary);
-
   color: #fff;
 }
 
@@ -19,7 +18,7 @@
   border-color: var(--color-primary);
   font-family: var(--font-secondary);
 
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 .btn:hover {

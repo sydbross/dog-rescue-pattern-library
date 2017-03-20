@@ -1,0 +1,10 @@
+.banner {
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  font-family: var(--font-secondary);
+}
