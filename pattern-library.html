@@ -53,7 +53,10 @@
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#banner">Banner</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#buttons">Buttons</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#cards">Cards</a></li>
+                <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#footer">Footer</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#forms">Forms</a></li>
+                <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#header">Header</a></li>
+                <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#nav">Nav</a></li>
           </ul>
         </nav>
       </div>
@@ -850,6 +853,57 @@
 
 </section>
 
+        <section class="pattern" id="footer">
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative">
+    <h2 class="pattern-name peta push-1-4">Footer</h2>
+        <div class="gutter absolute pin-cr">
+          <a class="pattern-pop" href="patterns/footer/footer.html" target="_blank" title="Open pattern in a new tab">
+            <i class="icon i-18">
+              <svg><use xlink:href="#pop-out" /></svg>
+            </i>
+          </a>
+        </div>
+  </div>
+
+    <div class="pattern-desc milli island">
+      <div class="max-length"><p>The header and the footer give the website unity, and create much easier navigation.</p>
+</div>
+    </div>
+
+  
+
+    <div class="pattern-details" id="footer-footer">
+
+      <div class="pattern-examples pad-t-1-2 pad-b">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
+          <div class="resizeable-pattern relative" style="">
+            <iframe src="patterns/footer/footer.html" scrolling="no" onload="resizeIframe(this)"></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
         <section class="pattern" id="forms">
   <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative">
     <h2 class="pattern-name peta push-1-4">Forms</h2>
@@ -863,6 +917,10 @@
       </nav>
   </div>
 
+    <div class="pattern-desc milli island">
+      <div class="max-length"><p>The forms make it easier for users to fill things out online, rather than printing and having to mail.</p>
+</div>
+    </div>
 
   
 
@@ -877,6 +935,10 @@
               </a>
             </div>
         </div>
+          <div class="pattern-desc milli island">
+            <div class="max-length"><p>The checkbox will be used for easy yes or no questions within the application page.</p>
+</div>
+          </div>
 
       <div class="pattern-examples pad-t-1-2 pad-b">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
@@ -921,6 +983,10 @@
               </a>
             </div>
         </div>
+          <div class="pattern-desc milli island">
+            <div class="max-length"><p>The long form will be used for longer, more explanative questions within the application page.</p>
+</div>
+          </div>
 
       <div class="pattern-examples pad-t-1-2 pad-b">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
@@ -943,7 +1009,12 @@
 
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
-              <code><pre>
+              <code><pre>&lt;form class="max-length island"&gt;
+  &lt;div class="push-1-2 pad-t-1-2">
+    &lt;label class="block" for="allergies">Does anyone have allergies? Explain&lt;/label>
+    &lt;input class="long block" type="text" id="allergies" required aria-describedby="allergies-error">
+  &lt;/div>
+&lt;/form>
 </pre></code>
             </div>
           </div>
@@ -960,6 +1031,10 @@
               </a>
             </div>
         </div>
+          <div class="pattern-desc milli island">
+            <div class="max-length"><p>The medium form will be used for one or two word answers to questions within the application page.</p>
+</div>
+          </div>
 
       <div class="pattern-examples pad-t-1-2 pad-b">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
@@ -982,7 +1057,12 @@
 
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
-              <code><pre>
+              <code><pre>&lt;form class="max-length island"&gt;
+  &lt;div class="push-1-2 pad-t-1-2">
+    &lt;label class="inline-block left" for="name">Your first and last name&lt;/label>
+    &lt;input class="med inline-block right" type="text" id="name" required aria-describedby="name-error">
+  &lt;/div>
+&lt;/form>
 </pre></code>
             </div>
           </div>
@@ -999,6 +1079,10 @@
               </a>
             </div>
         </div>
+          <div class="pattern-desc milli island">
+            <div class="max-length"><p>The short form will be used short answer questions within the application page.</p>
+</div>
+          </div>
 
       <div class="pattern-examples pad-t-1-2 pad-b">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
@@ -1021,7 +1105,252 @@
 
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;form class="max-length island"&gt;
+  &lt;div class="push-1-2 pad-t-1-2">
+    &lt;label class="inline-block left" for="call">Can we call you at work?&lt;/label>
+    &lt;input class="short inline-block right" type="text" id="call" required aria-describedby="call-error">
+  &lt;/div>
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="header">
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative">
+    <h2 class="pattern-name peta push-1-4">Header</h2>
+      <nav class="pattern-nav">
+        <ol class="list-group-inline push-1-4">
+            <li><a href="#header-footer">Footer</a></li>
+            <li><a href="#header-header">Header</a></li>
+        </ol>
+      </nav>
+  </div>
+
+
+  
+
+    <div class="pattern-details" id="header-footer">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
+          <h3 class="pattern-name tera push-1-8">Footer</h3>
+            <div class="gutter absolute pin-cr">
+              <a class="pattern-pop" href="patterns/header/footer.html" target="_blank" title="Open pattern in a new tab">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#pop-out" /></svg>
+                </i>
+              </a>
+            </div>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
+          <div class="resizeable-pattern relative" style="">
+            <iframe src="patterns/header/footer.html" scrolling="no" onload="resizeIframe(this)"></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
               <code><pre>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details" id="header-header">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
+          <h3 class="pattern-name tera push-1-8">Header</h3>
+            <div class="gutter absolute pin-cr">
+              <a class="pattern-pop" href="patterns/header/header.html" target="_blank" title="Open pattern in a new tab">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#pop-out" /></svg>
+                </i>
+              </a>
+            </div>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
+          <div class="resizeable-pattern relative" style="">
+            <iframe src="patterns/header/header.html" scrolling="no" onload="resizeIframe(this)"></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;div class="grid nav"&gt;
+  &lt;div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+    &lt;i class="icon logo i-128">
+        &lt;img src="../../images/logo.svg" alt="">
+      &lt;/i>
+  &lt;/div>
+  &lt;div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+    &lt;div class="grid">
+      &lt;ul>
+        &lt;li class="unit xs-1-5 s-1-5 m-1-5 l-1-5 milli gutter-1-2">&lt;a href="">About Us&lt;/a>&lt;/li>
+        &lt;li class="unit xs-1-5 s-1-5 m-1-5 l-1-5 milli gutter-1-2">&lt;a href="">Adopt&lt;/a>&lt;/li>
+        &lt;li class="unit xs-1-5 s-1-5 m-1-5 l-1-5 milli gutter-1-2">&lt;a href="">Application&lt;/a>&lt;/li>
+        &lt;li class="unit xs-1-5 s-1-5 m-1-5 l-1-5 milli gutter-1-2">&lt;a href="">Donate&lt;/a>&lt;/li>
+        &lt;li class="unit xs-1-5 s-1-5 m-1-5 l-1-5 milli gutter-1-2">&lt;a href="">Contact Us&lt;/a>&lt;/li>
+      &lt;/ul>
+    &lt;/div>
+
+  &lt;/div>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="nav">
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative">
+    <h2 class="pattern-name peta push-1-4">Nav</h2>
+      <nav class="pattern-nav">
+        <ol class="list-group-inline push-1-4">
+            <li><a href="#nav-filter-nav">Filter nav</a></li>
+            <li><a href="#nav-next-pg-nav">Next pg nav</a></li>
+        </ol>
+      </nav>
+  </div>
+
+    <div class="pattern-desc milli island">
+      <div class="max-length"><p>These navigation pieces help to make getting through the website a bit easier.</p>
+</div>
+    </div>
+
+  
+
+    <div class="pattern-details" id="nav-filter-nav">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
+          <h3 class="pattern-name tera push-1-8">Filter nav</h3>
+            <div class="gutter absolute pin-cr">
+              <a class="pattern-pop" href="patterns/nav/filter-nav.html" target="_blank" title="Open pattern in a new tab">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#pop-out" /></svg>
+                </i>
+              </a>
+            </div>
+        </div>
+          <div class="pattern-desc milli island">
+            <div class="max-length"><p>The filter nav will be used to help users funnel their search for a dog.</p>
+</div>
+          </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
+          <div class="resizeable-pattern relative" style="">
+            <iframe src="patterns/nav/filter-nav.html" scrolling="no" onload="resizeIframe(this)"></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;form class="max-length island"&gt;
+  &lt;div class="push-1-2 pad-t-1-2">
+    &lt;label class="inline-block left mega" for="breed">Breed:&lt;/label>
+    &lt;input class="med inline-block right" type="text" id="breed" required aria-describedby="breed-error">
+  &lt;/div>
+&lt;/form>
+
+&lt;form class="max-length island">
+  &lt;div class="push-1-2 pad-t-1-2">
+    &lt;label class="inline-block left mega" for="age">Age:&lt;/label>
+    &lt;input class="med inline-block right" type="text" id="age" required aria-describedby="age-error">
+  &lt;/div>
+&lt;/form>
+
+&lt;form class="max-length island">
+  &lt;div class="push-1-2 pad-t-1-2">
+    &lt;label class="inline-block left mega" for="sex">Sex:&lt;/label>
+    &lt;input class="med inline-block right" type="text" id="sex" required aria-describedby="sex-error">
+  &lt;/div>
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details" id="nav-next-pg-nav">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
+          <h3 class="pattern-name tera push-1-8">Next pg nav</h3>
+            <div class="gutter absolute pin-cr">
+              <a class="pattern-pop" href="patterns/nav/next-pg-nav.html" target="_blank" title="Open pattern in a new tab">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#pop-out" /></svg>
+                </i>
+              </a>
+            </div>
+        </div>
+          <div class="pattern-desc milli island">
+            <div class="max-length"><p>The next/previous page nav will help limit how long pages get on the adoption page as well as the application page.</p>
+</div>
+          </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
+          <div class="resizeable-pattern relative" style="">
+            <iframe src="patterns/nav/next-pg-nav.html" scrolling="no" onload="resizeIframe(this)"></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;a class="btn" href="#"&gt;&lt; Previous&lt;/a>
+&lt;a class="btn" href="#">Next &gt;&lt;/a>
 </pre></code>
             </div>
           </div>

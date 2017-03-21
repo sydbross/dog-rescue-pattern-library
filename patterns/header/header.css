@@ -1,0 +1,12 @@
+html {
+  background-color: var(--color-primary);
+}
+
+ul li a {
+  font-family: var(--font-primary);
+  list-style-type: none;
+}
+
+.nav {
+  height: 25em;
+}

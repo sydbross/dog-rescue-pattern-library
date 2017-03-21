@@ -1,0 +1,12 @@
+.short {
+  width: 8em;
+}
+
+.med {
+  width: 12em;
+}
+
+.long {
+  width: 100%;
+  height: 4em;
+}
