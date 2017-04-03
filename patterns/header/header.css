@@ -2,9 +2,8 @@ html {
   background-color: var(--color-primary);
 }
 
-ul li a {
+ul {
   font-family: var(--font-primary);
-  list-style-type: none;
 }
 
 .nav {
