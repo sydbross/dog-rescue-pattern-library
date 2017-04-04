@@ -1,11 +1,13 @@
-html {
+.bg {
   background-color: var(--color-primary);
 }
 
 ul {
   font-family: var(--font-primary);
+  margin-top: 0;
 }
 
-.nav {
-  height: 25em;
+.logo {
+  top: 10px;
+  left: 10px;
 }

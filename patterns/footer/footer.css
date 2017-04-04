@@ -1,0 +1,12 @@
+.bg {
+  background-color: var(--color-primary);
+}
+
+ul {
+  margin-top: 0;
+}
+
+.footer a {
+  font-family: var(--font-primary);
+  text-decoration: none;
+}

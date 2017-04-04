@@ -6,3 +6,7 @@ ul > li::before {
   list-style-type: none;
   content: none;
 }
+
+ul li {
+  color: var(--color-secondary);
+}

@@ -12,6 +12,7 @@
 html {
   font-family: var(--font-primary);
   color: var(--color-secondary);
+  background-color: var(--color-bg);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -49,4 +50,16 @@ cite {
 
 mark {
   background-color: var(--color-primary);
+}
+
+.section {
+  background-color: var(--color-bg);
+}
+
+
+hr {
+  display: block;
+  border-style: inset;
+  border-width: 1px;
+  border-color: var(--color-neutral);
 }
