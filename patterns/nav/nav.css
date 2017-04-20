@@ -2,3 +2,7 @@
   width: 7em;
   text-align: center;
 }
+
+.max-1 {
+  max-width: 20em;
+}
