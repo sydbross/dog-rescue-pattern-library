@@ -30,8 +30,8 @@
       <div class="grid">
         <ul class="push-0">
           <li class="unit xs-1-5 s-1-5 m-1-5 l-1-5 milli gutter-1-2"><a href="">About Us</a></li>
-          <li class="unit xs-1-5 s-1-5 m-1-5 l-1-5 milli gutter-1-2"><a href="">Adopt</a></li>
-          <li class="unit xs-1-5 s-1-5 m-1-5 l-1-5 milli gutter-1-2"><a href="">Application</a></li>
+          <li class="unit xs-1-5 s-1-5 m-1-5 l-1-5 milli gutter-1-2"><a href="dog.html">Adopt</a></li>
+          <li class="unit xs-1-5 s-1-5 m-1-5 l-1-5 milli gutter-1-2"><a href="form.html">Application</a></li>
           <li class="unit xs-1-5 s-1-5 m-1-5 l-1-5 milli gutter-1-2"><a href="">Donate</a></li>
           <li class="unit xs-1-5 s-1-5 m-1-5 l-1-5 milli gutter-1-2"><a href="">Contact Us</a></li>
         </ul>
@@ -46,15 +46,14 @@
     <div>
       <h1>ADOPTION APPLICATION</h1>
       <p>Please fill in as much information as possible in each tab. If the application is not complete, we cannot consider you for one of our dogs. Adopting a rescued dog is a serious endeavor and should not be done as a "spur of the moment" action.</p>
-      <p>All areas are mandatory. We need to know you as well as we can so please provide us with information that is as accurate possible. Most of these questions do not have "right" or "wrong" answers. They are a way for us to verify that the dog you have selected would be well suited to your home and lifestyle.</p>
+      <p>All *starred* areas are mandatory. We need to know you as well as we can so please provide us with information that is as accurate possible. Most of these questions do not have "right" or "wrong" answers. They are a way for us to verify that the dog you have selected would be well suited to your home and lifestyle.</p>
 
       <h1>ABOUT YOU</h1>
       <form class="max-length island">
-        <div class="push-1-2 pad-t-1-2">
+        <div class="push-1-2">
           <label class="inline-block left" for="name">Name of dog you wish to adopt:</label>
-          <input class="med inline-block right" type="text" id="name">
+          <input class="med inline-block right" type="text" id="name-of-dog">
         </div>
-      </form>
       </form>
       <p>I understand that this application form is not a guarantee that the dog I have applied for will still be available if my application to adopt a dog is approved, as there could be several applications for this dog already in progress or the dog may have a requirement that my home does not provide.</p>
       <p>I understand that LOYAL Rescue Inc. does not approve their dogs to applicants on a "first come first serve" basis, it is the best interest of the dog that is considered in the event of multiple applications for the same dog and the home best suited to the specific needs of the dog will be selected.</p>
@@ -63,117 +62,210 @@
       <p>I understand and accept that although all LOYAL Rescue Inc. dogs have been evaluated by a veterinarian, and that a copy of the veterinarian's report(s) will be provided at the time of adoption, it is possible that the dog may have minor or major medical issues that are undiagnosed. I understand and accept that the approximate age of the dog is estimated by a veterinarian and may be slightly or significantly inaccurate.</p>
       <p>I have verfied that this dog is being fostered in a location close enough for me to personally travel to, in order to adopt this dog, should I be the approved adopter.</p>
       <form class="max-length island">
-        <div class="push-1-2 pad-t-1-2">
+        <div class="push-1-2 ">
           <input type="checkbox" id="agree">
           <label for="agree">I have thoroughly read and understand the information in the FAQ section of the LOYAL Rescue Inc. website.</label>
         </div>
       </form>
     </div>
-    <div>
+    <div class="gutter">
+      <h1>YOUR LIFESTYLE</h1>
       <form class="max-length island">
-        <div class="push-1-2 pad-t-1-2 max-1">
+        <div class="push-1-2 max-1">
           <label class="inline-block" for="name">Your first and last name</label>
-          <input class="med inline-block" type="text" id="name">
+          <input class="med inline-block right" type="text" id="name">
         </div>
       </form>
       <form class="max-length island">
-        <div class="push-1-2 pad-t-1-2 max-1">
+        <div class="push-1-2 max-1">
           <label class="inline-block" for="name">Your age</label>
-          <input class="med inline-block" type="text" id="age">
+          <input class="med inline-block right" type="text" id="age">
         </div>
       </form>
       <form class="max-length island">
-        <div class="push-1-2 pad-t-1-2 max-1">
+        <div class="push-1-2 max-1">
           <label class="inline-block" for="name">Partner's First & Last Name</label>
-          <input class="med inline-block" type="text" id="name">
+          <input class="med inline-block right" type="text" id="partner-name">
         </div>
       </form>
       <form class="max-length island">
-        <div class="push-1-2 pad-t-1-2 max-1">
+        <div class="push-1-2 max-1">
           <label class="inline-block" for="name">Partner's Age</label>
-          <input class="med inline-block" type="text" id="age">
+          <input class="med inline-block right" type="text" id="partner-age">
         </div>
       </form>
       <form class="max-length island">
-        <div class="push-1-2 pad-t-1-2 max-1">
+        <div class="push-1-2 max-1">
           <label class="inline-block" for="name">Address</label>
-          <input class="med inline-block" type="text" id="address">
+          <input class="med inline-block right" type="text" id="address">
         </div>
       </form>
       <form class="max-length island">
-        <div class="push-1-2 pad-t-1-2 max-1">
+        <div class="push-1-2 max-1">
           <label class="inline-block" for="name">City</label>
-          <input class="med inline-block" type="text" id="city">
+          <input class="med inline-block right" type="text" id="city">
         </div>
       </form>
       <form class="max-length island">
-        <div class="push-1-2 pad-t-1-2 max-1">
+        <div class="push-1-2 max-1">
           <label class="inline-block" for="call">Province</label>
-          <input class="short inline-block" type="text" id="province">
+          <input class="short inline-block right" type="text" id="province">
         </div>
       </form>
       <form class="max-length island">
-        <div class="push-1-2 pad-t-1-2 max-1">
+        <div class="push-1-2 max-1">
           <label class="inline-block" for="call">Postal Code</label>
-          <input class="short inline-block" type="text" id="postal-code">
+          <input class="short inline-block right" type="text" id="postal-code">
         </div>
       </form>
       <form class="max-length island">
-        <div class="push-1-2 pad-t-1-2 max-1">
+        <div class="push-1-2 max-1">
           <label class="inline-block" for="name">Email Address</label>
-          <input class="med inline-block" type="text" id="email">
+          <input class="med inline-block right" type="text" id="email">
         </div>
       </form>
       <form class="max-length island">
-        <div class="push-1-2 pad-t-1-2 max-1">
+        <div class="push-1-2 max-1">
           <label class="inline-block" for="name">Alt. Email Address</label>
-          <input class="med inline-block" type="text" id="alt-email">
+          <input class="med inline-block right" type="text" id="alt-email">
         </div>
       </form>
       <form class="max-length island">
-        <div class="push-1-2 pad-t-1-2 max-1">
+        <div class="push-1-2 max-1">
           <label class="inline-block" for="call">Phone Number</label>
-          <input class="short inline-block" type="text" id="phone">
+          <input class="short inline-block right" type="text" id="phone">
         </div>
       </form>
-      <form class="max-length island">
-        <div class="push-1-2 pad-t-1-2 max-1">
-          <label class="inline-block" for="call">Type</label>
-          <input class="short inline-block" type="text" id="phone-type">
-        </div>
+      <form class="max-length island max-1">
+        <label for="phone-type">Type</label>
+        <select id="phone-type">
+          <option>Mobile</option>
+          <option>Home</option>
+          <option>Work</option>
+        </select>
       </form>
       <form class="max-length island">
-        <div class="push-1-2 pad-t-1-2 max-1">
+        <div class="push-1-2 max-1">
           <label class="inline-block" for="call">Alt. Phone Number</label>
-          <input class="short inline-block" type="text" id="alt-phone">
+          <input class="short inline-block right" type="text" id="alt-phone">
         </div>
       </form>
-      <form class="max-length island">
-        <div class="push-1-2 pad-t-1-2 max-1">
-          <label class="inline-block" for="call">Type</label>
-          <input class="short inline-block" type="text" id="phone-type">
-        </div>
+      <form class="max-length island max-1">
+        <label for="phone-type">Type</label>
+        <select id="alt-phone-type">
+          <option>Mobile</option>
+          <option>Home</option>
+          <option>Work</option>
+        </select>
       </form>
       <form class="max-length island">
-        <div class="push-1-2 pad-t-1-2 max-1">
+        <div class="push-1-2 max-1">
           <label class="inline-block" for="name">Best time to call</label>
-          <input class="med inline-block" type="text" id="time-call">
+          <input class="med inline-block right"  type="text" id="time-call">
         </div>
       </form>
       <form class="max-length island">
-        <div class="push-1-2 pad-t-1-2">
-          <input type="checkbox" id="agree">
+        <div class="push-1-2 max-1">
+          <input class="med inline-block right" type="checkbox" id="call-work">
           <label for="agree">Can we call you at work?</label>
         </div>
       </form>
       <form class="max-length island">
-        <div class="push-1-2 pad-t-1-2 max-1">
+        <div class="push-1-2 max-1">
           <label class="inline-block left" for="name">Your employer</label>
-          <input class="med inline-block right" type="text" id="time-call">
+          <input class="med inline-block right" type="text" id="employer">
         </div>
       </form>
-
+      <form class="max-length island">
+        <div class="push-1-2 max-1">
+          <label class="inline-block left" for="name">Employer's Phone #</label>
+          <input class="med inline-block right" type="text" id="emp-phone">
+        </div>
+      </form>
+      <form class="max-length island">
+        <div class="push-1-2 max-1">
+          <label class="inline-block left" for="name">Job Title</label>
+          <input class="med inline-block right" type="text" id="job-title">
+        </div>
+      </form>
+      <form class="max-length island">
+        <div class="push-1-2 max-1">
+          <label class="inline-block left" for="name">Employed Since:</label>
+          <input class="med inline-block right" type="text" id="employed-since">
+        </div>
+      </form>
+      <form class="max-length island">
+        <div class="push-1-2 max-1">
+          <label class="inline-block left" for="name">Spouse Employer</label>
+          <input class="med inline-block right" type="text" id="spouse-employer">
+        </div>
+      </form>
+      <form class="max-length island">
+        <div class="push-1-2 max-1">
+          <label class="inline-block left" for="name">Employer Phone #</label>
+          <input class="med inline-block right" type="text" id="spouse-emp-phone">
+        </div>
+      </form>
+      <form class="max-length island">
+        <div class="push-1-2 max-1">
+          <label class="inline-block left" for="name">Job Title</label>
+          <input class="med inline-block right" type="text" id="spouse-job-title">
+        </div>
+      </form>
+      <form class="max-length island">
+        <div class="push-1-2 max-1">
+          <label class="inline-block left" for="name">Employed Since:</label>
+          <input class="med inline-block right" type="text" id="spouse-employed-since">
+        </div>
+      </form>
+      <form class="max-length island max-1">
+        <label for="number-children">Number of Children</label>
+        <select id="number-children">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6+</option>
+        </select>
+      </form>
+      <form class="max-length island">
+        <div class="push-1-2 max-1">
+          <label class="inline-block left" for="name">Genders</label>
+          <input class="med inline-block right" type="text" id="genders">
+        </div>
+      </form>
+      <form class="max-length island">
+        <div class="push-1-2 max-1">
+          <label class="inline-block left" for="name">Ages</label>
+          <input class="med inline-block right" type="text" id="ages">
+        </div>
+      </form>
+      <form class="max-length island">
+        <div class="push-1-2">
+          <label class="block" for="allergies">Does anyone have allergies? Explain</label>
+          <input class="long block" type="text" id="allergies">
+        </div>
+      </form>
+      <form class="max-length island max-1">
+        <label for="number-total">Total # of people in home</label>
+        <select id="number-total">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6+</option>
+        </select>
+      </form>
+      <form class="max-length island">
+        <div class="push-1-2 max-1">
+          <label class="inline-block left" for="name">Age(s) if not already specified</label>
+          <input class="med inline-block right" type="text" id="ages-all">
+        </div>
+      </form>
     </div>
+
   </div>
 </body>
 </html>
