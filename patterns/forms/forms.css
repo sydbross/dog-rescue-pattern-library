@@ -11,6 +11,11 @@
   height: 4em;
 }
 
-.form-wrapper {
-  columns: 2;
+
+@media only screen and (min-width: 38em) {
+
+  .form-wrapper {
+    columns: 2;
+  }
+
 }
